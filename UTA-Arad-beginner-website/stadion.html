@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <link rel="stylesheet" type="text/css" href="atribute2.css"/>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">                                                             <!--font-->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Lobster&family=Quintessential&family=
+Rowdies:wght@300&display=swap" rel="stylesheet">
+      <title>
+         UTA
+      </title>
+    </head>
+    <body>
+      <img class="pozauta1" src="poze/pozauta.svg">
+      <img class="pozauta2" src="poze/pozauta.svg">
+    <h1 class="titlu">STADION</h1>
+    <ol>
+         <li><a href="index.html">ACASA</a></li>
+         <li><a href="stadion.html">STADION</a></li>
+         <li><a href="ultras.html">ULTRAS ARAD</a></li>
+	       <li><a href="palmares.html">PALMARES</a></li>
+		     <li><a href="istorie.html">ISTORIE</a></li>
+         <li><a href="clasament.html">CLASAMENT</a></li>
+         <li><a href="galerie.html">GALERIE</a></li>
+         <li><a href="sponsori.html">SPONSORI</a></li>
+         <li><a class="ticketing" href="ticketing.html">TICKETING</a></li>
+    </ol>
+
+    <center>
+      <div class="slider">
+        <div class="slides">
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <input type="radio" name="radio-btn" id="radio5">
+   
+          <div class="slide first">
+            <img src="poze/slide1.jpg">
+          </div>
+          <div class="slide">
+            <img src="poze/stadion1.jpg">
+          </div>
+          <div class="slide">
+            <img src="poze/stadion-slide4.jpg">
+          </div>
+          <div class="slide">
+            <img src="poze/stadion-slide3.jpg">
+          </div>
+          <div class="slide">
+           <img src="poze/stadion-slide5.jpg">
+         </div>
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+            <div class="auto-btn5"></div>
+          </div>
+        </div>
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+          <label for="radio5" class="manual-btn"></label>
+        </div>
+      </div>
+   </center>
+
+  <center>
+      <h1 style="font-family: 'Lobster', cursive;">STADIONUL  FRANCISC  NEUMAN</h1>
+  </center>
+  <br />
+  <br />
+   <div class="info-stadion">
+     <div class="caseta-text-st">
+       <p>Construit in 2014 pe fostul stadion Francisc Neuman, si inaugurat pe 28 august 2020</p>
+     </div>
+     <br>
+     <div class="caseta-text-dr">
+       <p>Numit dupa un evreu local, Francisc von Neuman care a detinut mai multe afaceri in Arad  
+        si a sponsorizat personal constuctia vechiului stadion si fondarea echipei</p>
+     </div>
+     <br>
+     <div class="caseta-text-st">
+      <p>La 18 apr 1945 este infiintat clubul, culorile alb si rosu fiind inspirate de la Arsenal 
+        Londra, echipa al carei fan era baronul </p>
+    </div>
+    <br>
+    <div class="caseta-text-dr">
+      <p>Noul stadion are o capacitate de 12.700 de locuri si include birouri,
+         un club de presa, un centru de presa, ospitalitate VIP, un restaurant si un hotel  </p>
+    </div>
+   </div> 
+
+  <div class="deschidere" style="display: flex; align-items: center;">
+    <img style="height:15em;" src="poze/deschidere.jpg">
+    <div class="caseta-text-deschidere">
+      <p style="font-size:20px;text-align: center;font-family: 'Lobster', cursive;">COREGRAFIE INAUGURARE STADION</p>
+    </div>
+  </div>
+
+
+    <footer>
+      <center>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+       </center>  
+    </footer>
+    <script type="text/javascript">
+      var counter=1;
+      setInterval(function(){
+        document.getElementById('radio' + counter).checked=true;
+        counter++;
+        if(counter>5){
+          counter=1;
+        }
+      },6000);
+    </script>
+    </body>
+</html>

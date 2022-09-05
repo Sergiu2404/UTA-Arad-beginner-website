@@ -1,0 +1,493 @@
+html{
+	background-image: url("poze/fundal.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+/*ultras */
+.galerieultras{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caseta-text-mij{
+    background-color: white;
+    border-radius: 10px;
+    border-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:300px;
+    height:50px;
+    position: absolute;
+}
+.img-st{
+    width:50%;
+    height:400px;
+    float:left;
+}
+.img-dr{
+    width:50%;
+    height:400px;
+    float:right;
+}
+.poza-silueta{
+    height: 90px;
+    background-color: white;
+}
+#galerie{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+/*stadion*/
+.info-stadion {
+    padding: 0 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+.caseta-text-deschidere{
+    background-color: white;
+    border-radius:15px;
+    width:300px;
+    height:60px;
+}
+.caseta-text-st{
+    background-color: white;
+    border-radius:15px;
+    /* float:left; */
+    width:600px;
+    height:200px;
+}
+.caseta-text-dr{
+    align-self: flex-end;
+    background-color: white;
+    border-radius:15px;
+    /* float:right; */
+    width:600px;
+    height:200px;
+}
+.info-stadion p{
+    font-size:30px;
+    color:red;
+    padding:20px;
+    font-family: 'Lobster', cursive;
+}
+/*stema liga1*/
+.casa-liga1{
+    position:static;
+    height:150px;
+    width:120px;
+}
+/*formular ticketing*/
+.formular{
+    font-size:20px;
+    justify-content:center;
+    display:block;
+    text-align:center;
+}
+.parallax{
+    background-image: url("poze/fundal-ticketing.png");
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .moving-text{
+    color:black;
+    font-size:60px;
+    font-family: 'Lobster', cursive;
+    position:absolute;
+    top:65%;
+    left:25%;
+}
+.titlu {
+    color: white;
+    text-align: center;
+    position:relative;
+    padding:6px 10px;
+}
+.meci{
+    background-color: white;
+    height:50px;
+}
+.urmatorul-meci{
+    color: red;
+    font-size:40px;
+}
+.pozauta1{
+    position: absolute;
+    width:60px;
+    height:60px;
+    padding:10px 10px;
+}
+.pozauta2{
+    position: absolute;
+    width:60px;
+    height:60px;
+    padding:10px 10px;
+    right:0px;
+}
+.liga1-1{
+    width:100px;
+    height:50px;
+    padding:10px 10px;
+    float:left;
+}
+.liga1-2{
+    width:100px;
+    height:50px;
+    padding:10px 10px;
+    float:right;
+}
+.competitie-1{
+    font-size:30px;
+    color:white;
+    position:relative;
+}
+.pozastadion{
+    margin-left:350px;
+    width: 650px;
+    height: 400px;
+}
+.pozaultras{
+    margin-left:350px;
+    width: 600px;
+    height: 400px;
+}
+.pozauta1{
+    position: absolute;
+    width:60px;
+    height:60px;
+    padding:10px 10px;
+}
+.pozauta2{
+    position: absolute;
+    width:60px;
+    height:60px;
+    padding:10px 10px;
+    right:0px;
+}
+.titlu{
+    color: white;
+    text-align: center;
+    position:relative;
+    padding:6px 10px;
+}
+
+
+.butonjava1{
+    color: black;
+    position: absolute;
+    margin-top:10%;
+    left:20px;
+    font-size: 20px;
+    border:none;
+    border-radius: 20%;
+    margin-right: 100px;
+}
+.butonjava2{
+    color: black;
+    position: absolute;
+    margin-top:10%;
+    right:20px;
+    font-size: 20px;
+    border:none;
+    border-radius: 20%;
+    margin-left:100px;
+}
+.butonjava1:hover{
+    background-color: red;
+}
+.butonjava2:hover{
+    background-color: red;
+}
+#imagine{
+    height: 750px;
+    display: block;
+    position:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.acasa_btn{
+    background-color:red;
+    color:white;
+    font-size:25px;
+    font-family: 'Rowdies', cursive;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.acasa_btn:hover{
+    background-color:white;
+    color:red;
+}
+ol li{
+    display: inline;
+    padding: 0px 5px;
+    margin-left: 30px;
+}
+ol{
+    background-color: white;
+}
+a{
+    text-decoration: underline;
+    color:red;
+    font-size: 20px;
+    font-family: 'Rowdies', cursive;
+}
+a:hover{
+    color:black;
+}
+.ticketing{
+    margin: 0;
+    background-color:white;
+    border-style: solid;
+    text-decoration:none;
+    border: none;
+    color:red;
+    font-size: 15px;
+}
+.ticketing:hover{
+    border-color:red;
+    background-color:red;
+    color:white;
+}
+
+
+.echipe{
+    width:100%;height:600px;
+    position:relative;
+}
+.echipe img{
+    width:100%;height:600px;
+}
+.text-echipe{
+    color:white;
+    font-size:20px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.item{
+    width:60%;
+    height:200px;
+    background-color:white;
+    border-radius:15%;
+    position:relative;
+    top:-10px;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-style:groove;
+    border-width: 4px;
+    border-color: black;
+}
+.an{
+    position:relative;
+    font-size:40px;
+    color:red;
+    display:flex;
+    top:40%;
+    left:10%;
+}
+.competitie{
+    position:relative;
+    font-size:30px;
+    color:black;
+    font-style: oblique;
+    display:flex;
+    top:20%;
+    left:30%;
+}
+.liga1{
+    width:50px;
+    height:70px;
+    position:relative;
+    display:flex;
+    top:10%;
+    left:30%;
+}
+.cuparo{
+    width:50px;
+    height:70px;
+    position:relative;
+    display:flex;
+    top:10%;
+    left:30%;
+}
+.denumire{
+    font-size:30px;
+    position:relative;
+    display:flex;
+    top:-20%;
+    left:70%;
+    color:red;
+}
+.text-69-70{
+    color:white;
+    font-size:30px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+}
+.istoriebg{
+    width:100%;height:600px;
+    position:relative;
+}
+.text-istorie{
+    position:relative;
+    font-size:30px;
+    color:black;
+    font-style: oblique;
+    display:flex;
+    top:10%;
+    left: 5%;
+    margin-right:5%;
+}
+
+
+/*==========
+slide edit
+============*/
+.slider{
+    width:800px;
+    height: 500px;
+    border-radius:10px;
+    overflow:hidden;
+}
+.slides{
+    width:500%;
+    height: 500px;
+    display:flex;
+}
+.slides input{
+    display:none;
+}
+.slide{
+    width:20%;
+    transition:2s;
+}
+.slide img{
+    width:800px;
+    height:500px;
+}
+/*navigare manuala*/
+.navigation-manual{
+    position:absolute;
+    width:800px;
+    margin-top:-40px;
+    display:flex;
+    justify-content:center;
+}
+.manual-btn{
+    border:2px solid red;
+    padding:5px;
+    border-radius:10px;
+    cursor:pointer;
+    transition:1s;
+}
+.manual-btn:not(:last-child){
+    margin-right:40px;
+}
+.manual-btn:hover{
+    background: red;
+}
+#radio1:checked ~ .first{
+    margin-left:0;
+}
+#radio2:checked ~ .first{
+    margin-left:-20%;
+}
+#radio3:checked ~ .first{
+    margin-left:-40%;
+}
+#radio4:checked ~ .first{
+    margin-left:-60%;
+}
+#radio5:checked ~ .first{
+    margin-left:-80%;
+}
+/*navigare automata*/
+.navigation-auto{
+    position:absolute;
+    display:flex;
+    width:800px;
+    justify-content:center;
+    margin-top:460px;
+}
+.navigation-auto div{
+    border:2px solid red;
+    padding:5px;
+    border-radius:10px;
+    transition:1s;
+}
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background: red;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: red;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: red;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background: red;
+}
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background: red;
+}
+
+/*
+------------------
+sponsori
+------------------
+*/
+.sponsor{
+    position:static;
+    height:200px;
+    width:280px;
+}
+
+
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover{
+      opacity:0.5;
+  }
+  .fa-facebook {
+      background: #3B5998;
+      color: white;
+      margin:0 auto;
+    }
+  .fa-instagram {
+      background: #3B5998;
+      color: white;
+      margin:0 auto;
+    }
+footer{
+    width:100%;
+    height:200px;
+    background-color: rgb(82, 1, 1);
+    position: static;
+    margin-bottom:0px;
+}

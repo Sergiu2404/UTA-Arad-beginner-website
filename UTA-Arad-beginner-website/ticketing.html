@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <link rel="stylesheet" type="text/css" href="atribute2.css"/>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">                                                             <!--font-->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Lobster&family=Quintessential&family=
+Rowdies:wght@300&display=swap" rel="stylesheet">
+      <title>
+         UTA
+      </title>
+    </head>
+    <body>
+      <img class="pozauta1" src="poze/pozauta.svg">
+      <img class="pozauta2" src="poze/pozauta.svg">
+      <h1 class="titlu">UTA ARAD</h1>
+      <div class="meci">
+         <img class="liga1-1" src="poze/liga1.svg">
+         <img class="liga1-2" src="poze/liga1.svg">
+         <center>
+         <p class="urmatorul-meci">Urmatorul meci</p>
+        </center>
+         <center>
+            <a class="acasa_btn" href="index.html">ACASA</a>
+         </center>
+      </div>
+         <div class="parallax">
+               <p class="moving-text">Pentru noi doar UTA conteaza!</p>
+         </div>
+       <center>
+           <p class="urmatorul-meci">
+            LIGA 1<br>
+            UTA ARAD-RAPID BUCURESTI<br>
+            Arena Francisc Neuman<br>
+            Bilete online:                        
+            </div>
+           </p>
+      </center>
+       <form class="formular">
+          <label for="nume">Nume</label><br>
+          <input type="text" id="nume"><br>
+          <label for="prenume">Prenume</label><br>
+          <input type="text" id="prenume"><br>
+          <label for="email">Email</label><br>
+          <input type="email" id="email"><br>
+       </form>
+   <center>
+      <button style="padding:10px;font-weight: bold;background-color: white; color:red;" onclick="show_hide()">ALEGE LOCUL</button>
+   </center> 
+   <div id="formular">
+      <form class="formular">
+          <input type="radio" id="tribuna1" name="loc" value="1">
+          <label for="tribuna 1">Tribuna 1</label>
+          <input type="radio" id="tribuna2" name="loc" value="1">
+          <label for="tribuna 2">Tribuna 2</label>
+          <input  TYPE="radio" id="peluza" name="loc" value="1">
+          <label for="peluza">Peluza N</label>
+          <input type="radio" id="peluza2" name="loc"  value="1">
+          <label for="peluza2">Peluza S</label>
+       </form>
+    </div>
+   <center>
+    <button id="send_btn" onclick="btn_trimite()">Trimite--></button>
+   </center>
+       <br>
+   <center>
+      <div style="background-color: white;">
+         <p style="color:red;"><strong>TRIBUNA 2</strong></p>
+      </div>
+    <div class="sectoare-stadion" style="display:flex;flex-direction: row;justify-content:center;align-items:center;
+    background-color: white;margin-left: -13%;">
+      <div style="background-color: white;">   
+         <p style="color:red;"><strong>PELUZA NORD-IOSIF PETSCOVSCHI</strong></p>
+      </div>
+         <br>
+         <img src="poze/stadion2.jpg" style="width:400px;height:250px;">  
+         <br>
+         <p style="color:red;" ><strong>PELUZA SUD</strong></p>
+    </div>
+   <div style="background-color:white;">
+      <p style="color:red;"><strong>TRIBUNA 1-COCO DUMITRESCU</strong></p>
+   </div>
+   </center>
+   <script>
+      var a=0;
+      function show_hide(){
+         if(a==1)
+         {
+         document.getElementById("formular").style.display="inline";
+         return a=0;
+         }
+         else 
+         {
+         document.getElementById("formular").style.display="none";
+         return a=1;
+         }
+      }
+      function btn_trimite(){
+         var c1=document.getElementById("nume").value;
+         var c2=document.getElementById("prenume").value;
+         var e1=document.getElementById("email").value;
+         if(document.getElementById("tribuna1").checked===false)
+         {
+            var radiocheck1=0;
+         }
+         if(document.getElementById("tribuna2").checked===false)
+         {
+            var radiocheck2=0;
+         }
+         if(document.getElementById("peluza").checked===false)
+         {
+            var radiocheck3=0;
+         }
+         if(document.getElementById("peluza2").checked===false)
+         {
+            var radiocheck4=0;
+         }
+         if(c1==='' || c2==='' || e1==='' || (radiocheck1===0 && radiocheck2===0 && radiocheck3===0 && radiocheck4===0)) 
+         {
+                alert("COMPLETEAZA TOATE CAMPURILE");
+                return false;
+         }
+         else {
+            document.location.href="bilete.html";
+            return true;
+         }
+
+      }
+      function functie(){
+         var name=document.getElementById("nume").value;
+         if(name===''){
+            alert("completeaza");
+            return false;
+         }
+         else return true;
+      }
+   </script>
+    </body>
+</html>

@@ -1,0 +1,113 @@
+html{
+	background-image: url("poze/fundal.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.titlu {
+    color: white;
+    text-align: center;
+    position:relative;
+    padding:6px 10px;
+}
+.pozauta1{
+    position: absolute;
+    width:60px;
+    height:60px;
+    padding:10px 10px;
+}
+.pozauta2{
+    position: absolute;
+    width:60px;
+    height:60px;
+    padding:10px 10px;
+    right:0px;
+}
+ol li{
+    display: inline;
+    padding: 0px 5px;
+    margin-left: 30px;
+}
+ol{
+    background-color: white;
+}
+a{
+    text-decoration: underline;
+    color:red;
+    font-size: 20px;
+    font-family: 'Rowdies', cursive;
+}
+a:hover{
+    color:black;
+}
+.ticketing{
+    background-color:white;
+    border-style: solid;
+    /* text-decoration:none; */
+    border-color:white;
+    color:red;
+    font-size: 15px;
+}
+.ticketing:hover{
+    border-color:red;
+    background-color:red;
+    color:white;
+}
+.pozastadion{
+    margin-left:370px;
+    width: 600px;
+    height: 400px;
+}
+.pozaultras{
+    margin-left:370px;
+    width: 600px;
+    height: 400px;
+}
+
+
+.video-stadion{
+    width:100%;height:600px;
+    position:relative;
+}
+.video-stadion source{
+    width:100%;height:600px;
+}
+.moving-text{
+    color:white;
+    font-size:60px;
+    font-family: 'Lobster', cursive;
+    position:absolute;
+    top:50%;
+    left:25%;
+}
+
+
+.fa{
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover{
+    opacity:0.5;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+.fa-instagram {
+    background: #3B5998;
+    color: white;
+  }
+footer{
+    width:100%;
+    height:300px;
+    background-color: rgb(82, 1, 1);
+}
+
